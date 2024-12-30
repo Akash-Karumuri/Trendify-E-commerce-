@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.flexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+header{
+    background-color: white;
+}
+header .navbar-brand{
+    color: #960037;
+}
+.home-page h2{
+    color: #960037;
+}
+.home-page p{
+    font-size: 18px;
+}
+.home-page figure{
+    border-radius: 5px;
+}
+.home-page figure img{
+    border-radius: 5px;
+    height: 300px;
+}
+.home-page .pants-home{
+    border-radius: 5px;
+}
+.home-page button,.shirts-page button{
+    background-color: #960037;
+    color: white;
+    border: 0;
+    padding: 8px 24px 8px 24px;
+    border-radius: 10px;
+}
+.home-page button:hover,.shirts-page button:hover{
+    background-color: white;
+    color: #960037;
+    border: 1px solid #960037;
+}
+.home-page h5{
+    color: #960037;
+}
+footer{
+    background: #a2a2a2;
+}
+footer a{
+    color: black;
+}
+.shirts-page img{
+    height: 300px;
+}
