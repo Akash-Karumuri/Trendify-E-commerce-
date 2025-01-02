@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="col-md-3">
             <h4>Contact Information</h4>
             <p><strong>Phone:</strong> +91-9392968885</p>
-            <p><strong>Email:</strong> info@Trendify.com</p>
+            <p><strong>Email:</strong> info@trendify.com</p>
             <p><strong>Address:</strong> Trendify, Main Road, Kakinada, India – 533003</p>
           </div>
       

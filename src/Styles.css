@@ -31,18 +31,6 @@ header .navbar-brand{
 .home-page .pants-home{
     border-radius: 5px;
 }
-.home-page button,.shirts-page button{
-    background-color: #960037;
-    color: white;
-    border: 0;
-    padding: 8px 24px 8px 24px;
-    border-radius: 10px;
-}
-.home-page button:hover,.shirts-page button:hover{
-    background-color: white;
-    color: #960037;
-    border: 1px solid #960037;
-}
 .home-page h5{
     color: #960037;
 }
@@ -52,6 +40,73 @@ footer{
 footer a{
     color: black;
 }
-.shirts-page img{
+.home-page button,.shirts-page button,.Tshirt-page button,
+.pants-page button,.shoes-page button{
+    background-color: #960037;
+    color: white;
+    border: 0;
+    padding: 8px 24px 8px 24px;
+    border-radius: 10px;
+}
+.home-page button:hover,.shirts-page button:hover,.Tshirt-page button:hover,
+.pants-page button:hover,.shoes-page button:hover{
+    background-color: white;
+    color: #960037;
+    border: 1px solid #960037;
+}
+.shirts-page img,.Tshirt-page img,.pants-page img,.shoes-page img{
     height: 300px;
 }
+.contact-page .row div{
+    background: rgba(255, 255, 255, 0.9); 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(230, 230, 255, 0.8)); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px); 
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); 
+    
+} 
+.contact-page h2 {
+    text-align: center;
+  }
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+.contact-page h2,.contact-page h4{
+    color: #960037;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  width: 50%;
+  padding: 10px;
+  background-color: #960037;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dashboard aside{
+    border-right:1px solid black;
+  }
+  .dashboard h3{
+    cursor: pointer;
+  }
+  .dashboard aside button{
+    width: 80%;
+    height: 50px;
+    border:0;
+    margin-bottom: 15px;
+    background-color:#960037;
+    color: white;
+    border-radius: 5px;
+  }

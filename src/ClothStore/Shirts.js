@@ -21,7 +21,7 @@ const Shirts = () => {
                               <div className='card-body'>
                                 <div className='px-3 py-2 m-0'>
                                   <h4 className='d-inline-block me-3'><strong>{shirt.name}</strong></h4>
-                                  <p className='d-inline-block text-bg-success px-2 rounded'>{shirt.rating} <i class="bi bi-star"></i></p>
+                                  <p className='d-inline-block text-bg-success px-2 rounded'>{shirt.rating} <i className="bi bi-star"></i></p>
                                 </div>
                                 <details className='px-3'>
                                   <summary>Description</summary>
@@ -32,10 +32,10 @@ const Shirts = () => {
                                   <p className='d-inline-block me-3 text-muted'>M.R.P.: <span className='text-decoration-line-through'>₹{shirt.originalPrice}</span></p>
                                   <p className='d-inline-block'><span className='text-success'>{shirt.discount} off</span></p>
                                 </div>
-                                <p className='px-3 py-2 m-0'><span className='text-muted'>Material:</span> {shirt.material}</p>
+                                <p className='px-3 pb-2 m-0'><span className='text-muted'>Material:</span> {shirt.material}</p>
                                 <p className='px-3 py-2 m-0'><span className='text-muted'>Colors:</span> {shirt.colors.toString()}</p>
                                 <p className='px-3 py-2 m-0'><span className='text-muted'>Sizes:</span> {shirt.sizes.toString()}</p>
-                                <div className="d-flex justify-content-center pb-3">
+                                <div className="d-flex justify-content-center pb-3 mt-2">
                                   <button className='btn btn-primary' type="submit" value="Submit">Book Now</button>
                                 </div>
                               </div>

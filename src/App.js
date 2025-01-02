@@ -8,9 +8,14 @@ import Home from './ClothStore/Home';
 import Header from "./ClothStore/Header";
 import Footer from "./ClothStore/Footer";
 import Routing from "./ClothStore/Routing";
-import { useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
+import Welcome from "./ClothStore/Admin/Welcome";
+import Dashboard from "./ClothStore/Admin/Dashboard";
+import Login from "./ClothStore/Admin/Login";
 
+export const loginStatus=createContext()
 function App() {
+  const [login,setLogin]=useState(false)
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -20,11 +25,13 @@ function App() {
     });
   }, []);
   return (
-  <div className="App">
-    <Header/>
-    <Routing/>
-    <Footer/>
-  </div>
+  <loginStatus.Provider value={[login,setLogin]}>
+    <div className="App">
+      <Header/>
+      <Routing/>
+      <Footer/>
+    </div>
+  </loginStatus.Provider>
   );
 }
 
