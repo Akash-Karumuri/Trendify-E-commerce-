@@ -32,7 +32,7 @@ const Shoes = () => {
                                   <p className='d-inline-block me-3 text-muted'>M.R.P.: <span className='text-decoration-line-through'>₹{shoe.originalPrice}</span></p>
                                   <p className='d-inline-block'><span className='text-success'>{shoe.discount} off</span></p>
                                 </div>
-                                <p className='px-3 pb-2 m-0'><span className='text-muted'>Material:</span> {shoe.material.upper.toString()}</p>
+                                <p className='px-3 pb-2 m-0'><span className='text-muted'>Material:</span> {shoe.material.toString()}</p>
                                 <p className='px-3 py-2 m-0'><span className='text-muted'>Colors:</span> {shoe.colors.toString()}</p>
                                 <p className='px-3 py-2 m-0'><span className='text-muted'>Sizes:</span> {shoe.sizes.toString()}</p>
                                 <div className="d-flex justify-content-center pb-3 mt-2">

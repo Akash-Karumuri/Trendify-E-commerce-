@@ -102,7 +102,7 @@ form button {
     cursor: pointer;
   }
   .dashboard aside button{
-    width: 80%;
+    width: 40%;
     height: 50px;
     border:0;
     margin-bottom: 15px;
@@ -110,3 +110,12 @@ form button {
     color: white;
     border-radius: 5px;
   }
+  .logout{
+    background-color:#a2a2a2 !important;
+  }
+  .image-url-column {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
