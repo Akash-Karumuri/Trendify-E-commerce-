@@ -55,17 +55,17 @@ const Dashboard = () => {
                 <div className='row'>
                     <aside className='col-lg-3 pt-3 px-2 text-center'>
                         <div className='row'><h4 onClick={()=>setView("")} className='mb-3 m-0 p-3'>Admin Dashboard</h4></div>
-                        <button className='shadow-lg me-2' onClick={()=>setView("AddShirt")}>Add Shirt</button>
-                        <button className='shadow-lg' onClick={()=>setView("ViewShirts")}>View Shirts</button>
-                        <button className='shadow-lg me-2' onClick={()=>setView("AddTshirt")}>Add T-Shirts</button>
-                        <button className='shadow-lg' onClick={()=>setView("ViewTshirts")}>View T-Shirts</button>
-                        <button className='shadow-lg me-2' onClick={()=>setView("AddPant")}>Add Pant</button>
-                        <button className='shadow-lg' onClick={()=>setView("ViewPants")}>View Pants</button>
-                        <button className='shadow-lg me-2' onClick={()=>setView("AddShoe")}>Add Shoe</button>
-                        <button className='shadow-lg' onClick={()=>setView("ViewShoes")}>View Shoes</button>
-                        <button className='shadow-lg me-2' onClick={()=>setView("ViewQueries")}>View Queries</button>
+                        <button className='me-2' onClick={()=>setView("AddShirt")}>Add Shirt</button>
+                        <button onClick={()=>setView("ViewShirts")}>View Shirts</button>
+                        <button className='me-2' onClick={()=>setView("AddTshirt")}>Add T-Shirts</button>
+                        <button onClick={()=>setView("ViewTshirts")}>View T-Shirts</button>
+                        <button className='me-2' onClick={()=>setView("AddPant")}>Add Pant</button>
+                        <button onClick={()=>setView("ViewPants")}>View Pants</button>
+                        <button className='me-2' onClick={()=>setView("AddShoe")}>Add Shoe</button>
+                        <button onClick={()=>setView("ViewShoes")}>View Shoes</button>
+                        <button className='me-2' onClick={()=>setView("ViewQueries")}>View Queries</button>
                         
-                        <button className='shadow-lg logout' onClick={()=>setLogin(false)} >Logout</button>
+                        <button className='logout' onClick={()=>setLogin(false)} >Logout</button>
                     </aside>
                     <div className='col-lg-9'>
                         {DashboardView()}

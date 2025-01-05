@@ -77,56 +77,63 @@ const ViewTshirts = () => {
 
   return (
     <div className='container p-3 view-tshirts-page'>
-      <h2 className='text-center mb-5'>Available Tshirts</h2>
-      <table className='table table-bordered table-striped'>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Original Price</th>
-            <th>Discount</th>
-            <th>Image Url</th>
-            <th>Material</th>
-            <th>Colors</th>
-            <th>Sizes</th>
-            <th>Rating</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {tshirt.map((tshirt, index) => {
+      <h2 className='text-center mb-5'>Available Tshirts {tshirt.length}</h2>
+      <div className='row Tshirt-page'>
+        {
+          tshirt.map((tshirt, index) => {
             return (
-              <tr key={index}>
-                <td>{tshirt.name}</td>
-                <td>{tshirt.description}</td>
-                <td>{tshirt.price} ₹</td>
-                <td>{tshirt.originalPrice} ₹</td>
-                <td>{tshirt.discount}</td>
-                <td className="image-url-column">{tshirt.image}</td>
-                <td>{tshirt.material}</td>
-                <td>{tshirt.colors}</td>
-                <td>{tshirt.sizes}</td>
-                <td>{tshirt.rating}</td>
-                <td>
-                  <button
-                    onClick={() => getOneRecord(tshirt.id)}
-                    data-bs-toggle="modal"
-                    data-bs-target="#updateTshirt"
-                    className='btn btn-primary me-3 mb-2'>
-                    Edit
-                  </button>
-                  <button
-                    onClick={() => deleteTshirt(tshirt.id)}
-                    className='btn btn-danger mb-2'>
-                    Delete
-                  </button>
-                </td>
-              </tr>
+              <div data-aos="zoom-in" key={index} className='col-md-4 mb-3'>
+                <div className='card shadow'>
+                  <img src={tshirt.image} alt={tshirt.name} className='card-img-top' />
+                  <div className='card-body'>
+                    <div className='px-3 py-2 m-0'>
+                      <h4 className='d-inline-block me-3'><strong>{tshirt.name}</strong></h4>
+                      <p className='d-inline-block text-bg-success px-2 rounded'>
+                        {tshirt.rating} <i className="bi bi-star"></i>
+                      </p>
+                    </div>
+                    <details className='px-3'>
+                      <summary>Description</summary>
+                      <p className='px-3 pt-3 m-0'>{tshirt.description}</p>
+                    </details>
+                    <div className='px-3 pt-3 pb-0 m-0'>
+                      <p className='d-inline-block me-3'>Price: 
+                        <span className='text-success lead fw-bold'>₹{tshirt.price}</span>
+                      </p>
+                      <p className='d-inline-block me-3 text-muted'>M.R.P.: 
+                        <span className='text-decoration-line-through'>₹{tshirt.originalPrice}</span>
+                      </p>
+                      <p className='d-inline-block'>
+                        <span className='text-success'>{tshirt.discount} off</span>
+                      </p>
+                    </div>
+                    <p className='px-3 pb-2 m-0'><span className='text-muted'>Material:</span> {tshirt.material}</p>
+                    <p className='px-3 py-2 m-0'><span className='text-muted'>Colors:</span> {tshirt.colors.toString()}</p>
+                    <p className='px-3 py-2 m-0'><span className='text-muted'>Sizes:</span> {tshirt.sizes.toString()}</p>
+                    <div className="d-flex justify-content-center pb-3 mt-2">
+                      <button
+                        onClick={() => getOneRecord(tshirt.id)}
+                        data-bs-toggle="modal"
+                        data-bs-target="#updateTshirt"
+                        className='btn btn-primary me-2'
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => deleteTshirt(tshirt.id)}
+                        className='btn btn-danger delete-button'
+                      >
+                        Delete
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             )
-          })}
-        </tbody>
-      </table>
+          })
+        }
+      </div>
+
 
       {/* Modal for updating Tshirt */}
       <div className="modal fade" id="updateTshirt" tabIndex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">

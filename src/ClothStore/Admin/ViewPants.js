@@ -77,56 +77,63 @@ const ViewPants = () => {
 
   return (
     <div className='container p-3 view-pants-page'>
-      <h2 className='text-center mb-5'>Available Pants</h2>
-      <table className='table table-bordered table-striped'>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Original Price</th>
-            <th>Discount</th>
-            <th>Image Url</th>
-            <th>Material</th>
-            <th>Colors</th>
-            <th>Sizes</th>
-            <th>Rating</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {pants.map((pant, index) => {
+      <h2 className='text-center mb-5'>Available Pants {pants.length}</h2>
+      <div className='row pants-page'>
+        {
+          pants.map((pant, index) => {
             return (
-              <tr key={index}>
-                <td>{pant.name}</td>
-                <td>{pant.description}</td>
-                <td>{pant.price} ₹</td>
-                <td>{pant.originalPrice} ₹</td>
-                <td>{pant.discount}</td>
-                <td className="image-url-column">{pant.image}</td>
-                <td>{pant.material}</td>
-                <td>{pant.colors}</td>
-                <td>{pant.sizes}</td>
-                <td>{pant.rating}</td>
-                <td>
-                  <button
-                    onClick={() => getOneRecord(pant.id)}
-                    data-bs-toggle="modal"
-                    data-bs-target="#updatePant"
-                    className='btn btn-primary me-3 mb-2'>
-                    Edit
-                  </button>
-                  <button
-                    onClick={() => deletePant(pant.id)}
-                    className='btn btn-danger mb-2'>
-                    Delete
-                  </button>
-                </td>
-              </tr>
+              <div data-aos="zoom-in" key={index} className='col-md-4 mb-3'>
+                <div className='card shadow'>
+                  <img src={pant.image} alt={pant.name} className='card-img-top' />
+                  <div className='card-body'>
+                    <div className='px-3 py-2 m-0'>
+                      <h4 className='d-inline-block me-3'><strong>{pant.name}</strong></h4>
+                      <p className='d-inline-block text-bg-success px-2 rounded'>
+                        {pant.rating} <i className="bi bi-star"></i>
+                      </p>
+                    </div>
+                    <details className='px-3'>
+                      <summary>Description</summary>
+                      <p className='px-3 pt-3 m-0'>{pant.description}</p>
+                    </details>
+                    <div className='px-3 pt-3 pb-0 m-0'>
+                      <p className='d-inline-block me-3'>Price: 
+                        <span className='text-success lead fw-bold'>₹{pant.price}</span>
+                      </p>
+                      <p className='d-inline-block me-3 text-muted'>M.R.P.: 
+                        <span className='text-decoration-line-through'>₹{pant.originalPrice}</span>
+                      </p>
+                      <p className='d-inline-block'>
+                        <span className='text-success'>{pant.discount} off</span>
+                      </p>
+                    </div>
+                    <p className='px-3 pb-2 m-0'><span className='text-muted'>Material:</span> {pant.material}</p>
+                    <p className='px-3 py-2 m-0'><span className='text-muted'>Colors:</span> {pant.colors.toString()}</p>
+                    <p className='px-3 py-2 m-0'><span className='text-muted'>Sizes:</span> {pant.sizes.toString()}</p>
+                    <div className="d-flex justify-content-center pb-3 mt-2">
+                      <button
+                        onClick={() => getOneRecord(pant.id)}
+                        data-bs-toggle="modal"
+                        data-bs-target="#updatePant"
+                        className='btn btn-primary me-2'
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => deletePant(pant.id)}
+                        className='btn btn-danger delete-button'
+                      >
+                        Delete
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             )
-          })}
-        </tbody>
-      </table>
+          })
+        }
+      </div>
+
 
       {/* Modal for updating Pant */}
       <div className="modal fade" id="updatePant" tabIndex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">

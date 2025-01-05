@@ -54,6 +54,14 @@ footer a{
     color: #960037;
     border: 1px solid #960037;
 }
+.view-shirts-page button,.view-tshirts-page button,
+.view-pants-page button,.view-shoes-page button{
+    background-color: #007bff;
+}
+.view-shirts-page .delete-button,.view-tshirts-page 
+.delete-button,.view-pants-page .delete-button,.view-shoes-page .delete-button{
+    background-color: #dc3545;
+}
 .shirts-page img,.Tshirt-page img,.pants-page img,.shoes-page img{
     height: 300px;
 }
@@ -113,9 +121,3 @@ form button {
   .logout{
     background-color:#a2a2a2 !important;
   }
-  .image-url-column {
-    max-width: 250px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
