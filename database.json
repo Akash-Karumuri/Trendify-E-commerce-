@@ -1,0 +1,1201 @@
+{
+  "Shirts": [
+    {
+      "id": "shirt-001",
+      "name": "Classic Oxford  Shirt",
+      "description": "A timeless Oxford cotton shirt perfect for both casual and semi-formal occasions",
+      "price": 2499,
+      "originalPrice": 3499,
+      "discount": "29%",
+      "image": "https://www.brooktaverner.com/image_cache/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/h/whistler_shirt_-_sky_blue_monaco_trousers_-_charcoal_-_download_for_web.jpg",
+      "material": "100% Cotton",
+      "colors": [
+        "White",
+        "Light Blue"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "shirt-002",
+      "name": "Formal Striped Shirt",
+      "description": "Professional striped shirt for business wear",
+      "price": 1999,
+      "originalPrice": 2499,
+      "discount": "20%",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20231012/wiv9/65282693ddf77915193817ca/-473Wx593H-469514966-blue-MODEL.jpg",
+      "material": "Cotton Blend",
+      "colors": [
+        "Blue Stripe",
+        "White Stripe"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "shirt-003",
+      "name": "Casual Linen Shirt",
+      "description": "Comfortable linen shirt for summer wear",
+      "price": 1799,
+      "originalPrice": 2299,
+      "discount": "22%",
+      "image": "https://images.unsplash.com/photo-1589310243389-96a5483213a8",
+      "material": "100% Linen",
+      "colors": [
+        "Beige",
+        "White",
+        "Light Blue"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "shirt-004",
+      "name": "Denim Casual Shirt",
+      "description": "Stylish denim shirt for casual outings",
+      "price": 2299,
+      "originalPrice": 2799,
+      "discount": "18%",
+      "image": "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e",
+      "material": "Denim",
+      "colors": [
+        "Blue",
+        "Dark Blue"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "shirt-005",
+      "name": "Printed Casual Shirt",
+      "description": "Trendy printed shirt for casual wear",
+      "price": 1599,
+      "originalPrice": 1999,
+      "discount": "20%",
+      "image": "https://www.ottostore.com/cdn/shop/files/Shot2_400x.png?v=1710845398",
+      "material": "Cotton",
+      "colors": [
+        "Multicolor"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "shirt-006",
+      "name": "Flannel Plaid Shirt",
+      "description": "Warm and comfortable flannel shirt perfect for cool weather",
+      "price": 2699,
+      "originalPrice": 3299,
+      "discount": "18%",
+      "image": "https://theformalclub.in/cdn/shop/files/2_5.jpg?v=1731407169",
+      "material": "Cotton Flannel",
+      "colors": [
+        "Red Plaid",
+        "Black Plaid",
+        "Blue Plaid"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "shirt-007",
+      "name": "Hawaiian Print Shirt",
+      "description": "Vibrant tropical print shirt ideal for summer parties",
+      "price": 1899,
+      "originalPrice": 2499,
+      "discount": "24%",
+      "image": "https://www.spherestudio.co.in/cdn/shop/files/SJ622-A-1.jpg?v=1725969453",
+      "material": "Rayon",
+      "colors": [
+        "Blue Tropical",
+        "Red Tropical"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "shirt-008",
+      "name": "Slim Fit Dress Shirt",
+      "description": "Modern slim fit dress shirt for a sleek professional look",
+      "price": 2899,
+      "originalPrice": 3599,
+      "discount": "19%",
+      "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1380116_alternate10?$plpDeskRF$",
+      "material": "Egyptian Cotton",
+      "colors": [
+        "White",
+        "Light Pink",
+        "Sky Blue"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "shirt-009",
+      "name": "Mandarin Collar Shirt",
+      "description": "Contemporary mandarin collar shirt for a unique formal style",
+      "price": 2199,
+      "originalPrice": 2799,
+      "discount": "21%",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230621/h7F1/6492b0d7d55b7d0c63950836/-473Wx593H-464041562-blue-MODEL.jpg",
+      "material": "Cotton Blend",
+      "colors": [
+        "Black",
+        "Navy",
+        "White"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "shirt-010",
+      "name": "Short Sleeve Henley",
+      "description": "Casual short sleeve henley shirt with button placket",
+      "price": 1699,
+      "originalPrice": 1999,
+      "discount": "15%",
+      "image": "https://m.media-amazon.com/images/I/41TI+H-RBBL._AC_SY1000_.jpg",
+      "material": "Cotton Jersey",
+      "colors": [
+        "Gray",
+        "Navy",
+        "Olive"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "shirt-011",
+      "name": "Chambray Shirt",
+      "description": "Lightweight chambray shirt, perfect for a casual day out",
+      "price": 2099,
+      "originalPrice": 2599,
+      "discount": "19%",
+      "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/15616240/2021/10/12/f14f2210-9ba5-468e-a6e1-affb5e7e9be81634037466767-Roadster-Men-Shirts-8021634037466105-1.jpg",
+      "material": "100% Cotton",
+      "colors": [
+        "Light Blue",
+        "Gray"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "shirt-012",
+      "name": "Stretch Shirt",
+      "description": "Flexible and breathable performance stretch shirt ideal for active wear",
+      "price": 2999,
+      "originalPrice": 3999,
+      "discount": "25%",
+      "image": "https://www.bombayshirts.com/cdn/shop/files/3d9a2a96-9c13-3b8e-7cf3-f83111d4f05d_Artboard_207_20_2817_29_fcfd441a-6cff-4a68-8226-54b3f9cc2537.jpg?v=1732712746",
+      "material": "Polyester Blend",
+      "colors": [
+        "Black",
+        "Navy",
+        "Gray"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "rating": 4.7
+    }
+  ],
+  "TShirts": [
+    {
+      "id": "mens-tshirt-001",
+      "name": "Classic Neck T-Shirt",
+      "description": "Premium men's crew neck t-shirt with a regular fit, perfect for everyday wear",
+      "price": 999,
+      "originalPrice": 1499,
+      "discount": "33%",
+      "image": "https://www.indianterrain.com/cdn/shop/files/ITMTS01845SS-Off_White_01_be891221-42ab-482d-a89d-5e085196d2d6.jpg?v=1716824934&width=1000",
+      "material": "100% Organic Cotton",
+      "colors": [
+        "White",
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "mens-tshirt-002",
+      "name": "Muscle Fit T-Shirt",
+      "description": "Form-fitting t-shirt designed to highlight athletic builds, made with stretch fabric",
+      "price": 1299,
+      "originalPrice": 1799,
+      "discount": "28%",
+      "image": "https://contents.mediadecathlon.com/p2073340/k$5ef12366bf4dc0d69de7788ab12d11a1/men-s-slim-fit-cotton-fitness-t-shirt-grey-domyos-8543989.jpg",
+      "material": "95% Cotton, 5% Elastane",
+      "colors": [
+        "Black",
+        "White",
+        "Navy",
+        "Gray Melange"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "mens-tshirt-003",
+      "name": "Sports T-Shirt",
+      "description": "Quick-dry athletic t-shirt with moisture-wicking technology for gym and sports",
+      "price": 1499,
+      "originalPrice": 1999,
+      "discount": "25%",
+      "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27849832/2024/2/24/85cee7ff-aa61-4c46-8068-f12da150cff31708798279211AthletesPerformanceT-shirt1.jpg",
+      "material": "Dri-FIT Polyester",
+      "colors": [
+        "Black",
+        "Electric Blue",
+        "Red",
+        "Charcoal"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "mens-tshirt-004",
+      "name": "Men's Polo T-Shirt",
+      "description": "Classic polo t-shirt with three-button placket, perfect for smart casual occasions",
+      "price": 1799,
+      "originalPrice": 2499,
+      "discount": "28%",
+      "image": "https://images.unsplash.com/photo-1516826957135-700dedea698c",
+      "material": "Cotton Pique",
+      "colors": [
+        "Navy",
+        "White",
+        "Black",
+        "Forest Green"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "mens-tshirt-005",
+      "name": "Oversized T-Shirt",
+      "description": "Urban style oversized t-shirt with dropped shoulders and extended hem",
+      "price": 1599,
+      "originalPrice": 2299,
+      "discount": "30%",
+      "image": "https://images.unsplash.com/photo-1527719327859-c6ce80353573",
+      "material": "Heavy Cotton",
+      "colors": [
+        "Black",
+        "White",
+        "Beige",
+        "Washed Gray"
+      ],
+      "sizes": [
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "mens-tshirt-006",
+      "name": "Men's Henley T-Shirt",
+      "description": "Casual henley t-shirt with button placket, perfect for a refined casual look",
+      "price": 1399,
+      "originalPrice": 1899,
+      "discount": "26%",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/klzhq4w0/t-shirt/c/f/a/m-frhenbrwn-feranoid-original-imagyznhzmgempab.jpeg?q=90&crop=false",
+      "material": "Cotton Jersey",
+      "colors": [
+        "Gray Melange",
+        "Navy",
+        "Burgundy"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "mens-tshirt-007",
+      "name": "Men's V-Neck T-Shirt",
+      "description": "Classic v-neck t-shirt with a modern fit, ideal for layering or wearing alone",
+      "price": 1099,
+      "originalPrice": 1599,
+      "discount": "31%",
+      "image": "https://src1.ilogo.in/images/products/8473/custom-mens-v-neck-t-shirt.webp",
+      "material": "Supima Cotton",
+      "colors": [
+        "White",
+        "Black",
+        "Navy",
+        "Light Gray"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "mens-tshirt-008",
+      "name": "Long Sleeve T-Shirt",
+      "description": "Comfortable long sleeve t-shirt with ribbed cuffs, great for cooler weather",
+      "price": 1699,
+      "originalPrice": 2199,
+      "discount": "23%",
+      "image": "https://triprindia.com/cdn/shop/files/TI.OGRBLHNFUL-D145_1024x.jpg?v=1725537616",
+      "material": "Cotton Jersey",
+      "colors": [
+        "Black",
+        "White",
+        "Navy",
+        "Dark Gray"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "mens-tshirt-009",
+      "name": "Premium Basic T-Shirt",
+      "description": "High-quality basic t-shirt with reinforced seams and premium cotton construction",
+      "price": 1299,
+      "originalPrice": 1799,
+      "discount": "28%",
+      "image": "https://images.unsplash.com/photo-1512327428889-607eeb19efe8",
+      "material": "Pima Cotton",
+      "colors": [
+        "White",
+        "Black",
+        "Heather Gray",
+        "Navy Blue"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "mens-tshirt-010",
+      "name": "Graphic Print T-Shirt",
+      "description": "Contemporary graphic print t-shirt with modern designs and comfortable fit",
+      "price": 1499,
+      "originalPrice": 1999,
+      "discount": "25%",
+      "image": "https://images.bewakoof.com/t320/men-s-black-the-dark-knight-graphic-printed-t-shirt-592032-1728641290-1.jpg",
+      "material": "100% Cotton",
+      "colors": [
+        "White/Black Print",
+        "Black/White Print",
+        "Navy/White Print",
+        "Gray/Black Print"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "mens-tshirt-011",
+      "name": "Athletic T-Shirt",
+      "description": "Moisture-wicking athletic t-shirt with quick-dry technology, perfect for workouts and sports activities",
+      "price": 1599,
+      "originalPrice": 1999,
+      "discount": "20%",
+      "image": "https://static.wixstatic.com/media/ed506e_bdae6551b29f46ebbc5e72c068f1de60~mv2.jpg/v1/fill/w_980,h_1307,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ed506e_bdae6551b29f46ebbc5e72c068f1de60~mv2.jpg",
+      "material": "Polyester Blend",
+      "colors": [
+        "Neon Yellow",
+        "Electric Blue",
+        "Black",
+        "Gray Melange"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)",
+        "XXL (46)"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "mens-tshirt-012",
+      "name": "Graphic Print T-Shirt",
+      "description": "Classic cotton t-shirt featuring retro-inspired graphic prints and a comfortable relaxed fit",
+      "price": 1299,
+      "originalPrice": 1699,
+      "discount": "24%",
+      "image": "https://images.bewakoof.com/t540/men-s-black-ocean-child-graphic-printed-oversized-t-shirt-610984-1734531750-1.jpg",
+      "material": "100% Cotton",
+      "colors": [
+        "Vintage White",
+        "Faded Black",
+        "Washed Blue",
+        "Rust Orange"
+      ],
+      "sizes": [
+        "S (38)",
+        "M (40)",
+        "L (42)",
+        "XL (44)"
+      ],
+      "rating": "5"
+    }
+  ],
+  "Pants": [
+    {
+      "id": "mens-pants-001",
+      "name": "Classic Fit Chinos",
+      "description": "Versatile cotton chinos with a comfortable classic fit, perfect for both casual and semi-formal occasions",
+      "price": 1999,
+      "originalPrice": 2999,
+      "discount": "33%",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+      "material": "98% Cotton, 2% Elastane",
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Olive",
+        "Beige"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Classic Regular",
+      "rating": 4.5
+    },
+    {
+      "id": "mens-pants-002",
+      "name": "Slim Fit Dress Pants",
+      "description": "Modern slim fit formal trousers with crisp pleats and premium fabric",
+      "price": 2499,
+      "originalPrice": 3499,
+      "discount": "29%",
+      "image": "https://images.unsplash.com/photo-1584865288642-42078afe6942",
+      "material": "65% Polyester, 35% Viscose",
+      "colors": [
+        "Black",
+        "Charcoal Gray",
+        "Light Gray"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Slim Fit",
+      "rating": 4.7
+    },
+    {
+      "id": "mens-pants-003",
+      "name": "Cargo Pants",
+      "description": "Durable cargo pants with multiple pockets, perfect for outdoor activities",
+      "price": 1799,
+      "originalPrice": 2499,
+      "discount": "28%",
+      "image": "https://m.media-amazon.com/images/I/71mqVXQ+U+L._AC_UY1100_.jpg",
+      "material": "100% Cotton Canvas",
+      "colors": [
+        "Army Green",
+        "Khaki",
+        "Black",
+        "Brown"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Regular Fit",
+      "rating": 4.3
+    },
+    {
+      "id": "mens-pants-004",
+      "name": "Athletic Joggers",
+      "description": "Comfortable joggers with elastic cuffs and drawstring waist, ideal for workouts",
+      "price": 1599,
+      "originalPrice": 1999,
+      "discount": "20%",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230308/dU5C/640847a8f997dde6f4e6f421/-473Wx593H-441147946-ltgrey-MODEL.jpg",
+      "material": "88% Polyester, 12% Spandex",
+      "colors": [
+        "Black",
+        "Gray Melange",
+        "Navy",
+        "Charcoal"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "inseam": [
+        "Regular"
+      ],
+      "fit": "Athletic Fit",
+      "rating": 4.6
+    },
+    {
+      "id": "mens-pants-005",
+      "name": "Straight Fit Jeans",
+      "description": "Classic straight fit denim jeans with traditional 5-pocket styling",
+      "price": 2299,
+      "originalPrice": 2999,
+      "discount": "23%",
+      "image": "https://www.snitch.co.in/cdn/shop/files/4MSD3631-02-3244.jpg?v=1701756866",
+      "material": "100% Cotton Denim",
+      "colors": [
+        "Dark Blue",
+        "Light Blue",
+        "Black",
+        "Gray"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Straight Fit",
+      "rating": 4.4
+    },
+    {
+      "id": "mens-pants-006",
+      "name": "Slim Fit Chinos",
+      "description": "Modern slim fit chinos with slight stretch for comfort",
+      "price": 1899,
+      "originalPrice": 2499,
+      "discount": "24%",
+      "image": "https://blakelyclothing.com/cdn/shop/products/831LightGrey1_grande.jpg?v=1657899149",
+      "material": "97% Cotton, 3% Elastane",
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Gray",
+        "Burgundy"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Slim Fit",
+      "rating": 4.5
+    },
+    {
+      "id": "mens-pants-007",
+      "name": "Skinny Fit Jeans",
+      "description": "Modern skinny fit jeans with stretch denim for maximum comfort",
+      "price": 2399,
+      "originalPrice": 2999,
+      "discount": "20%",
+      "image": "https://cdn.antonymorato.com.filoblu.com/rx/960x,ofmt_webp/media/catalog/product/M/M/MMDT00281-FA750335-7010-1-W01807_01.jpg",
+      "material": "98% Cotton, 2% Elastane",
+      "colors": [
+        "Dark Blue",
+        "Black",
+        "Light Blue",
+        "Gray"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Skinny Fit",
+      "rating": 4.3
+    },
+    {
+      "id": "mens-pants-008",
+      "name": "Formal Trousers",
+      "description": "Classic pleated formal trousers with premium wool blend fabric",
+      "price": 2799,
+      "originalPrice": 3499,
+      "discount": "20%",
+      "image": "https://www.hancockfashion.com/cdn/shop/files/2169grey_2.jpg?v=1734412399&width=720",
+      "material": "70% Polyester, 30% Wool",
+      "colors": [
+        "Black",
+        "Navy",
+        "Charcoal",
+        "Brown"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Regular Fit",
+      "rating": 4.8
+    },
+    {
+      "id": "mens-pants-009",
+      "name": "Fit Cotton Pants",
+      "description": "Comfortable relaxed fit cotton pants for casual wear",
+      "price": 1699,
+      "originalPrice": 2299,
+      "discount": "26%",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+      "material": "100% Cotton",
+      "colors": [
+        "Beige",
+        "Gray",
+        "Navy",
+        "Olive"
+      ],
+      "sizes": [
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Relaxed Fit",
+      "rating": 4.4
+    },
+    {
+      "id": "mens-pants-010",
+      "name": "Golf Pants",
+      "description": "Stretch performance pants designed for golf and active wear",
+      "price": 2599,
+      "originalPrice": 3299,
+      "discount": "21%",
+      "image": "https://lgndy.co/cdn/shop/files/joggers_2.jpg?v=1703385421",
+      "material": "92% Polyester, 8% Spandex",
+      "colors": [
+        "Khaki",
+        "Gray",
+        "Navy",
+        "Black"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Athletic Fit",
+      "rating": 4.6
+    },
+    {
+      "id": "mens-pants-011",
+      "name": "Tactical Cargo Joggers",
+      "description": "Modern hybrid pants combining cargo utility with jogger comfort, perfect for urban adventures",
+      "price": 2199,
+      "originalPrice": 2799,
+      "discount": "21%",
+      "image": "https://www.fugazee.com/cdn/shop/files/MAIN_3086393c-a92f-4543-98f2-56ef4e7304c0.jpg?crop=center&height=1200&v=1734706552&width=1200",
+      "material": "95% Nylon, 5% Spandex",
+      "colors": [
+        "Tactical Black",
+        "Ranger Green"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "inseam": [
+        "30",
+        "32",
+        "34"
+      ],
+      "fit": "Athletic Fit",
+      "rating": 4.7
+    },
+    {
+      "id": "mens-pants-012",
+      "name": "Linen Summer Pants",
+      "description": "Breathable linen-blend pants perfect for warm weather and beach holidays",
+      "price": 1899,
+      "originalPrice": 2499,
+      "discount": "24%",
+      "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/2024/JULY/31/Ura6tbIu_2d936c63a2fc4cd18a32ba668d165538.jpg",
+      "material": "55% Linen, 45% Cotton",
+      "colors": [
+        "Gray",
+        "White",
+        "Light Blue",
+        "Sage Green"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "rating": "4.5"
+    }
+  ],
+  "Shoes": [
+    {
+      "id": "mens-shoes-001",
+      "name": "Leather Oxford Shoes",
+      "description": "Premium leather oxford dress shoes with cap toe design, perfect for formal occasions",
+      "price": 3999,
+      "originalPrice": 5999,
+      "discount": "33%",
+      "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509",
+      "material": "Genuine Leather",
+      "colors": [
+        "Black",
+        "Dark Brown",
+        "Tan"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "mens-shoes-002",
+      "name": "Running Shoes",
+      "description": "Lightweight running shoes with responsive cushioning and breathable mesh upper",
+      "price": 4499,
+      "originalPrice": 5999,
+      "discount": "25%",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "material": "Engineered Mesh",
+      "colors": [
+        "Black/Red",
+        "Blue/White",
+        "All Black"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "mens-shoes-003",
+      "name": "Casual Sneakers",
+      "description": "Versatile everyday sneakers with comfortable cushioning and trendy design",
+      "price": 2999,
+      "originalPrice": 3999,
+      "discount": "25%",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+      "material": "Canvas and Synthetic",
+      "colors": [
+        "White",
+        "Black",
+        "Navy",
+        "Gray"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "mens-shoes-004",
+      "name": "Leather Loafers",
+      "description": "Slip-on leather loafers with penny slot detail, perfect for business casual wear",
+      "price": 3499,
+      "originalPrice": 4999,
+      "discount": "30%",
+      "image": "https://images.unsplash.com/photo-1614253429340-98120bd6d753",
+      "material": "Genuine Leather",
+      "colors": [
+        "Brown",
+        "Black",
+        "Tan",
+        "Burgundy"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "mens-shoes-005",
+      "name": "Gym Training Shoes",
+      "description": "Stable and supportive training shoes designed for weightlifting and gym workouts",
+      "price": 3999,
+      "originalPrice": 5499,
+      "discount": "27%",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa",
+      "material": "Mesh with Support Overlay",
+      "colors": [
+        "Black",
+        "Gray/Red",
+        "White/Blue",
+        "All Gray"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "mens-shoes-006",
+      "name": "Desert Boots",
+      "description": "Classic suede desert boots with crepe sole, perfect for casual outings",
+      "price": 2999,
+      "originalPrice": 3999,
+      "discount": "25%",
+      "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0",
+      "material": "Suede",
+      "colors": [
+        "Sand",
+        "Brown",
+        "Navy",
+        "Gray"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "mens-shoes-007",
+      "name": "Formal Derby Shoes",
+      "description": "Classic derby shoes with open lacing system and sleek design",
+      "price": 4499,
+      "originalPrice": 5999,
+      "discount": "25%",
+      "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509",
+      "material": "Premium Leather",
+      "colors": [
+        "Black",
+        "Brown",
+        "Burgundy"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "mens-shoes-008",
+      "name": "Slip-on Canvas Shoes",
+      "description": "Comfortable slip-on canvas shoes for casual everyday wear",
+      "price": 1999,
+      "originalPrice": 2499,
+      "discount": "20%",
+      "image": "https://images.unsplash.com/photo-1465453869711-7e174808ace9",
+      "material": "Canvas",
+      "colors": [
+        "Navy",
+        "Black",
+        "Gray",
+        "White"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "mens-shoes-009",
+      "name": "Basketball High Tops",
+      "description": "High-top basketball shoes with ankle support and cushioning",
+      "price": 5999,
+      "originalPrice": 7999,
+      "discount": "25%",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3",
+      "material": "Synthetic Leather and Mesh",
+      "colors": [
+        "Black/Red",
+        "White/Blue",
+        "All Black"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "mens-shoes-010",
+      "name": "Leather Boat Shoes",
+      "description": "Classic leather boat shoes with hand-sewn construction and non-marking sole",
+      "price": 2999,
+      "originalPrice": 3999,
+      "discount": "25%",
+      "image": "https://www.realmenrealstyle.com/wp-content/uploads/2024/06/classic-brown-leather-boat-shoes-on-a-wooden-deck.jpg",
+      "material": "Full-grain Leather",
+      "colors": [
+        "Brown",
+        "Navy",
+        "Tan",
+        "Gray"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "mens-shoes-011",
+      "name": "Trail Running Shoes",
+      "description": "Rugged trail running shoes with enhanced grip and water-resistant features for outdoor adventures",
+      "price": 4799,
+      "originalPrice": 5999,
+      "discount": "20%",
+      "image": "https://images.bauerhosting.com/affiliates/sites/2/2024/04/Asics-Trabuco-Max-3-trail-running-shoes.jpg?auto=format&w=1440&q=80",
+      "material": "Water-resistant Mesh",
+      "colors": [
+        "Gray/Orange",
+        "Blue/Gray",
+        "Black/Yellow"
+      ],
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "mens-shoes-012",
+      "name": "Chelsea Boots",
+      "description": "Sleek leather Chelsea boots with elastic side panels, perfect for smart casual wear",
+      "price": 3999,
+      "originalPrice": 4999,
+      "discount": "20%",
+      "image": "https://img.tatacliq.com/images/i20//437Wx649H/MP000000023817438_437Wx649H_202409241808391.jpeg",
+      "material": "Premium Leather",
+      "colors": [
+        "Black",
+        "Dark Brown",
+        "Tan",
+        "Oxblood"
+      ],
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "rating": "4.5"
+    }
+  ],
+  "ViewQueries": [
+    {
+      "id": "8f15",
+      "fname": "Akash",
+      "lname": "Karumuri",
+      "email": "karumuriakash888@gmail.com",
+      "phone": "9392968885",
+      "message": "Sample Query"
+    },
+    {
+      "id": "be60",
+      "fname": "Sai",
+      "lname": "Karumuri",
+      "email": "Sai555@gmail.com",
+      "phone": "6301770236",
+      "message": "Hi......."
+    }
+  ]
+}
